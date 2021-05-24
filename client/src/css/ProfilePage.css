@@ -62,9 +62,9 @@
   overflow: hidden;
   margin: 20px;
   border-radius: 5%;
-  color: rgb(0, 0, 0);
-  max-width: 100px;
-  margin-right: 20px;
+  color: rgb(10, 61, 170);
+  width: 150px;
+  margin-right: 1px;
   font-family: 'Garamond', sans-serif;
   background-color: hsl(227deg 58% 0);
   font-weight: bold;
@@ -93,3 +93,10 @@
   transition-timing-function: ease-in-out;
   color: goldenrod;
 }
+
+.choose-image-input{
+ font-size: 10px
+}
+
+
+
