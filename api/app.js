@@ -1,10 +1,12 @@
 const express = require('express');
+require('./config/db.js').config();
 const expressSession = require('express-session');
 const morgan = require('morgan');
 const path = require('path');
 const db = require('./models');
 const passport = require('./middlewares/authentication');
 const app = express();
+
 
 const PORT = process.env.PORT || 8000;
 
