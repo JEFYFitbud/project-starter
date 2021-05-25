@@ -14,12 +14,16 @@
     "dialect": "postgres"
   },
   "production": {
-    "use_env_variable": "DATABASE_URL",
+    "username": "jniuticdfbohhi",
+    "database": "d9uhodqaovmihd",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
         "rejectUnauthorized": false
       }
     }
+  
   }
 }
+
+
