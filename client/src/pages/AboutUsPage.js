@@ -11,7 +11,7 @@ function AboutUsPage(props) {
   return (
     <div>
       <div className="div-heading">
-        <h1>About Us!</h1>
+        <h1 style={{marginBottom: 50}}>Our Team!</h1>
         <div class="flex-container">
           <div style={{ marginRight: 20, marginLeft: 20 }}>
             <img
