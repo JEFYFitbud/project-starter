@@ -5,6 +5,7 @@ import SwipeCard from '../img/Swipecard.png';
 import ForumPic from '../img/Forumpage.png';
 import auth from '../services/auth';
 import '../css/aos.css';
+import '../css/Welcomepage.css';
 
 
 
@@ -16,18 +17,11 @@ const AuthHomeButton = withRouter(({ history }) => {
             
               <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"></link>
                     
-              <div class="jumbotron jumbotron-fluid"  
-                  style={{backgroundImage: `url("https://media.istockphoto.com/photos/two-muscular-men-are-making-fist-bump-gesture-during-workout-in-the-picture-id1016623870?k=6&m=1016623870&s=612x612&w=0&h=uehhdt5CxUFM3TveOrHLompcIfn5NKovIsh7Rx5ZHhU=")`,
-                          backgroundRepeat: "no-repeat", backgroundSize: "cover", imageResolution: "-moz-initial",
-                          opacity: 1, width:2000, height:600}}>
+              <div className='welcome-main-picture-container'>
                   <div class="container text-center text-md-left">
 
-                      <h1 class="display-3 text-white font-weight-bold my-5"
-                        style={{WebkitTextStroke: "black", WebkitTextStrokeWidth: 1.5}}>
-                        Welcome To Fitbud
-                      </h1>
-                      <p class="lead text-white my-4" style={{WebkitTextStroke: "white", WebkitTextStrokeWidth: 1.5}}>
-                          Need a Gym Buddy? You came to the right place!
+                      <h1 className="welcome-main-title"> Welcome To Fitbud </h1>
+                      <p className="welcome-main-title"> Need a Gym Buddy? You came to the right place!
                       </p>
                   </div>
               </div>

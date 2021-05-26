@@ -93,18 +93,14 @@ function CurrentProfile({
             paddingRight: 10,
             borderRadius: 30,
             backgroundColor: '#E6E9EE5E',
-            
-          }}
-        >
+            }}>
           <div>
             <div>
               <div
                 style={{
-
                   alignItems: 'center',
                   borderRadius: 30,
-                  margin: 30,
-                 
+                  margin: 30, 
                 }}
               >
                 <img
@@ -124,14 +120,13 @@ function CurrentProfile({
                     type='file'
                     name='image'
                     onChange={handleFileInputChange}
-                    className='button-file'
+                    className='choose-image-input'
                   ></input>
                   <button
                     className='button-file'
                     type='submit'
-                    style={{ width: '60px', height: '30px' }}
                   >
-                    Submit
+                    Set profile picture
                   </button>
                 </form>
               </div>
